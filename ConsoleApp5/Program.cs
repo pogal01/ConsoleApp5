@@ -12,7 +12,7 @@
             Console.WriteLine("input second number");
             input2 = Convert.ToInt32(Console.ReadLine());
 
-
+            // Chreck for inputs being equal
             if (input1 == input2)
             {
                 Console.WriteLine(input1 + " and "+ input2 +" are equal");
@@ -20,6 +20,8 @@
             {
                 Console.WriteLine(input1 + " and " + input2 + " are not equal");
             }
+
+
         }
     }
 }
